@@ -10,8 +10,8 @@ The experimental design therefore consists of:
 - On 2 conditions: L-Phenylalanine treatment and Veh treatment (Ctrl).
 - Paired setup (Phe vs Ctrl on the same donor): design = ~ donor + condition.  
 
-Original dataset from GEO: GSE291310. 
-Platform: Illumina NovaSeq X Plus.
+Original dataset from GEO: GSE291310.  
+Sequencing platform: Illumina NovaSeq X Plus.
 
 ## Pipeline diagram
 The RNA-Seq pipeline was performed as follows:
