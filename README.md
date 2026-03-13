@@ -36,9 +36,6 @@ flowchart TD
 
     A --> B
     B --> C
-    B2 --> C1
-    B2 --> C2
-    B2 --> C3
 ```
 
 ## Conclusions and findings
