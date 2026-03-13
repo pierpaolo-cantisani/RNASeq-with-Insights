@@ -8,7 +8,8 @@ The experimental design therefore consists of:
 - 10 samples (S1-S10).
 - From 5 different donors (D1-D5).
 - On 2 conditions: L-Phenylalanine treatment and Veh treatment (Ctrl).
-- Paired setup (Phe vs Ctrl on the same donor): design = ~ donor + condition.
+- Paired setup (Phe vs Ctrl on the same donor): design = ~ donor + condition.  
+
 Original dataset from GEO: GSE291310. 
 Platform: Illumina NovaSeq X Plus.
 
@@ -27,7 +28,7 @@ flowchart TD
     subgraph B["Module B - DE (R)"]
         B1[Import counts<br/>Tximport] --> B2[Exploratory analysis<br/>PCA-t-SNE-heatmap]
         B2 --> B3[Differential Expression<br/>DESeq2]
-        B3 --> B4[Data visualization and discussion<br/>volcano plot-DE heatmap]
+        B3 --> B4[Data visualization and discussion<br/>Volcano plot-DE heatmap]
       
     end
 
