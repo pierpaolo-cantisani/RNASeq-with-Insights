@@ -18,20 +18,20 @@ The RNA-Seq pipeline was performed as follows:
 flowchart TD
     subgraph A["Module A - Preprocessing and Mapping (Bash)"]
         A1[Conda environment set-up] --> A2[Raw FASTQ files]
-        A2 --> A3[Quality Control\nFastQC + MultiQC]
-        A3 --> A4[Trimming\nFastp]
-        A4 --> A5[Quality Control 2\nFastQC + MultiQC]
-        A5 --> A6[Pseudo-mapping\nKallisto]
+        A2 --> A3[Quality Control<br/>FastQC + MultiQC]
+        A3 --> A4[Trimming<br/>Fastp]
+        A4 --> A5[Quality Control 2<br/>FastQC + MultiQC]
+        A5 --> A6[Pseudo-mapping<br/>Kallisto]
     end
 
     subgraph B["Module B - Differential Expression (R)"]
-        B1[Import counts\nTximport] --> B2[Differential Expression\nDESeq2]
+        B1[Import counts<br/>Tximport] --> B2[Differential Expression\nDESeq2]
     end
 
     subgraph C["Module C - Functional Enrichment (Literature study and R)"]
         C1[Literature and database research]
-        C2[ORA\nClusterProfiler]
-        C3[GSEA\nClusterProfiler]
+        C2[ORA<br/>ClusterProfiler]
+        C3[GSEA<br/>ClusterProfiler]
     end
 
     A --> B
