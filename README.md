@@ -27,7 +27,7 @@ flowchart TD
     subgraph B["Module B - DE (R)"]
         B1[Import counts<br/>Tximport] --> B2[Exploratory analysis<br/>PCA-t-SNE-heatmap]
         B2 --> B3[Differential Expression<br/>DESeq2]
-        B3 --> B4[Results visualization and discussion<br/>volcano plot-DE heatmap]
+        B3 --> B4[Data visualization and discussion<br/>volcano plot-DE heatmap]
       
     end
 
@@ -39,10 +39,10 @@ flowchart TD
     end
 
     subgraph D["Conclusions"]
-        D1[Comparison]
-        D2[ORA<br/>ClusterProfiler]
-        C3[GSEA<br/>ClusterProfiler]
+        D1[Final overview]
+        D2[Open issues and possible solutions]
     end
+
     A --> B
     B --> C
     C --> D
