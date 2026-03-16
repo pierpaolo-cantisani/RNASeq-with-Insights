@@ -18,7 +18,7 @@ The RNA-Seq pipeline was performed as follows:
 ```mermaid
 flowchart TD
     subgraph A["Module A - Mapping (Bash)"]
-        A1[Conda environment set-up] --> A2[Raw FASTQ files]
+        A1[Conda environment set-up] --> A2[Raw FASTQ files download]
         A2 --> A3[Quality Control<br/>FastQC + MultiQC]
         A3 --> A4[Trimming<br/>Fastp]
         A4 --> A5[Quality Control 2<br/>FastQC + MultiQC]
