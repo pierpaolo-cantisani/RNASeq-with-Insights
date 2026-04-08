@@ -2,7 +2,7 @@
 ## Overview
 Case study of a full RNA-Seq pipeline, from raw reads to biological interpretation.  
 
-This project is meant as a case study to showcase both my organizational skills and my approach to interpreting results and deriving biological insights. The project is structured as a “presentation” of the workflow, with the main analyses and comments provided in the Jupyter notebook "RNA_seq_case_study.ipynb".
+This project is meant as a case study to showcase both my organizational skills and my approach to interpreting results and obtaining biological insights. The project is structured as a “presentation” of the workflow, with the main analyses and comments provided in the Jupyter notebook "RNA_seq_case_study.ipynb".
 
 ## Dataset
 This is a bulk RNA-sequencing dataset of in-vitro Th2 cells, subjected to L-phenylalanine treatment to assess its effect on gene expression. Cells were obtained from 5 donors, and incubated for 24h with either Phenylalanine or Vehicle (Ctrl) with simultaneous activation with anti-CD2, anti-CD3 and anti-CD28 antibody beads.  
