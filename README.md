@@ -60,7 +60,7 @@ L-phenylalanine was found to have a moderate influence on key biological process
 ## Jupyter Notebook
 The project is formatted in a single Jupyter notebook for organization and clarity. As previously stated, the notebook contains two sections using different languages: bash (for bioinformatics tools) and R (for statistical analysis).  
 To reproduce the analysis:
-- Bash cells: run with the Python kernel using the %%bash magic command at the top of each cell. The conda environment "bioinf" must be activated beforehand..
+- Bash cells: run with the Python kernel using the %%bash magic command at the top of each cell. The conda environment "bioinf" must be activated beforehand.
 - R cells: run by switching to the IRkernel. All required R packages are listed in the R Package Versions section below.
 
 ## Tools & Versions
